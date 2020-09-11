@@ -18,19 +18,19 @@ h1 {
 .item {
     display: block;
     box-sizing: border-box;
-    width: 200px;
+    width: 250px;
 }
 
 .item2 {
     display: inline;
     box-sizing: content-box;
-    width: 100px;
+    width: 125px;
     height: auto;
     
 }
 
 .input,select {
-    width: 50px;
+    width: 90px;
     padding: 2px;
 }
 
