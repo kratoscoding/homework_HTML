@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+    
+    <div class="box">
+        <h1>Book Flight</h1>
+        <div class="flexbox">
+            <div class="item">
+                <div class="content">
+                    <label>Flying From</label> <br>
+                          <select name="country">
+                            <option value="Argentina">Argentina</option>
+                            <option value="Bolivia">Bolivia</option>
+                            <option value="Brazil">Brazil</option>
+                            <option value="Chile">Chile</option>
+                            <option value="Colombia">Colombia</option>
+                            <option value="Ecuador">Ecuador</option>
+                            <option value="Guyana">Guyana</option>
+                            <option value="Paraguay">Paraguay</option>
+                            <option value="Peru">Peru</option>
+                            <option value="Suriname">Suriname</option>
+                            <option value="Uruguay">Uruguay</option>
+                            <option value="Venezuela">Venezuela</option>
+                          </select>
+                </div>
+            </div>
+            <div class="item">
+                <div class="content">
+                    <label>To</label> <br>
+                          <select name="country">
+                            <option value="Argentina">Argentina</option>
+                            <option value="Bolivia">Bolivia</option>
+                            <option value="Brazil">Brazil</option>
+                            <option value="Chile">Chile</option>
+                            <option value="Colombia">Colombia</option>
+                            <option value="Ecuador">Ecuador</option>
+                            <option value="Guyana">Guyana</option>
+                            <option value="Paraguay">Paraguay</option>
+                            <option value="Peru">Peru</option>
+                            <option value="Suriname">Suriname</option>
+                            <option value="Uruguay">Uruguay</option>
+                            <option value="Venezuela">Venezuela</option>
+                          </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="flexbox">
+            <div class="item">
+                <div class="content">
+                    <div class="form-field">
+                        <label for="">Departing</label> <br>
+                        <input type="date">
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="content">
+                    <div class="form-field">
+                        <label for="">Returning</label> <br>
+                        <input type="date">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flexbox">
+            <div class="item2">
+                <div class="content">
+                    <div>
+                        <label for="">Adult</label> <br>
+                        <input class="input" type="text" placeholder="Adult">
+                    </div>
+                </div>
+            </div>
+            <div class="item2">
+                <div class="content">
+                    <div>
+                        <label for="">Child</label> <br>
+                        <input class="input" type="text" placeholder="0">
+                    </div>
+                </div>
+            </div>
+            <div class="item2">
+                <div class="content">
+                    <div>
+                        <label for="">Infant</label> <br>
+                        <input class="input" type="text" placeholder="0">
+                    </div>
+                </div>
+            </div>
+            <div class="item2">
+                <div class="content">
+                    <div>
+                        <label for="">Currency</label> <br>
+                        <span class="select">
+                            <select>
+                              <option>$</option>
+                              <option>£</option>
+                              <option>€</option>
+                              <option>฿</option>
+                            </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="btn">SEARCH</button>
+
+    </div>
+
+<!--     
+    <div class="field has-addons">
+        <div class="control is-expanded">
+          <div class="select is-fullwidth">
+              <label>Flying From</label> <br>
+            <select name="country">
+              <option value="Argentina">Argentina</option>
+              <option value="Bolivia">Bolivia</option>
+              <option value="Brazil">Brazil</option>
+              <option value="Chile">Chile</option>
+              <option value="Colombia">Colombia</option>
+              <option value="Ecuador">Ecuador</option>
+              <option value="Guyana">Guyana</option>
+              <option value="Paraguay">Paraguay</option>
+              <option value="Peru">Peru</option>
+              <option value="Suriname">Suriname</option>
+              <option value="Uruguay">Uruguay</option>
+              <option value="Venezuela">Venezuela</option>
+            </select>
+          </div>
+        </div>
+        <div class="control is-expanded">
+            <div class="select is-fullwidth">
+                <label>To</label> <br>
+              <select name="country">
+                <option value="Argentina">Argentina</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Brazil">Brazil</option>
+                <option value="Chile">Chile</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Guyana">Guyana</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Peru">Peru</option>
+                <option value="Suriname">Suriname</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Venezuela">Venezuela</option>
+              </select>
+            </div>
+          </div>
+
+        <div class="form-field">
+            <label for="">Departing</label> <br>
+            <input type="date">
+        </div>
+        <div class="form-field">
+            <label for="">Returning</label> <br>
+            <input type="date">
+        </div>
+        <div>
+            <label for="">Adult</label> <br>
+            <input class="input" type="text" placeholder="Adult">
+        </div>
+        <div>
+            <label for="">Child</label> <br>
+            <input class="input" type="text" placeholder="0">
+        </div>
+        <div>
+            <label for="">Infant</label> <br>
+            <input class="input" type="text" placeholder="0">
+        </div>
+
+        <div class="field has-addons has-addons-right">
+            <p class="control">
+                <label for="">Currency</label> <br>
+              <span class="select">
+                <select>
+                  <option>$</option>
+                  <option>£</option>
+                  <option>€</option>
+                  <option>฿</option>
+                </select>
+                <input class="input" type="text" placeholder="Amount of money">
+              </span>
+            </p>
+            <p class="control">
+              
+            </p>
+          </div>
+      </div>
+      
+</body>
+</html> -->
