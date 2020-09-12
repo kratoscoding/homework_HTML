@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="booking2.css">
+</head>
+<body>
+    <center>
+        <form>
+            <fieldset>
+                <table>
+                    <h1>Booking Form</h1>
+                    <tr>
+                        <th>Flying From</th>
+                        <td>:</td>
+                        <td>
+                            <select name="country">
+                                <option value="Argentina">Argentina</option>
+                                <option value="Bolivia">Bolivia</option>
+                                <option value="Brazil">Brazil</option>
+                                <option value="Chile">Chile</option>
+                                <option value="Colombia">Colombia</option>
+                                <option value="Ecuador">Ecuador</option>
+                                <option value="Guyana">Guyana</option>
+                                <option value="Paraguay">Paraguay</option>
+                                <option value="Peru">Peru</option>
+                                <option value="Suriname">Suriname</option>
+                                <option value="Uruguay">Uruguay</option>
+                                <option value="Venezuela">Venezuela</option>
+                              </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>To</th>
+                        <td>:</td>
+                        <td>
+                            <select name="country">
+                                <option value="Argentina">Argentina</option>
+                                <option value="Bolivia">Bolivia</option>
+                                <option value="Brazil">Brazil</option>
+                                <option value="Chile">Chile</option>
+                                <option value="Colombia">Colombia</option>
+                                <option value="Ecuador">Ecuador</option>
+                                <option value="Guyana">Guyana</option>
+                                <option value="Paraguay">Paraguay</option>
+                                <option value="Peru">Peru</option>
+                                <option value="Suriname">Suriname</option>
+                                <option value="Uruguay">Uruguay</option>
+                                <option value="Venezuela">Venezuela</option>
+                              </select>
+                        </td>                   
+                     </tr>
+                    <tr>
+                        <th>Departing</th>
+                        <td>:</td>
+                        <td><input type="date" name="date" id="dame1"></td>
+                        
+                    </tr>
+                    <tr>
+                        <th>Returning</th>
+                        <td>:</td>
+                        <td><input type="date" name="todate" id="todate1"></td>
+                        
+                    </tr>
+                    <tr>
+                        <th>Adult</th>
+                        <td>:</td>
+                        <td><input type="text" name="name" id="Person" placeholder="1"></td>
+                        
+                    </tr>
+                    <tr>
+                        <th>Child</th>
+                        <td>:</td>
+                        <td><input type="text" name="name" id="Person" placeholder="0"></td>
+                    </tr>
+                    <tr>
+                        <th>Infant</th>
+                        <td>:</td>
+                        <td><input type="text" name="days" id="Person" placeholder=0></td>
+                    </tr>
+                    
+                    <tr>
+                        <th>Currency</th>
+                        <td>:</td>
+                        <td><span class="select">
+                            <select>
+                              <option>$</option>
+                              <option>£</option>
+                              <option>€</option>
+                              <option>฿</option>
+                            </select>
+                        </span></td>
+                    </tr>
+                </table>
+                <div style="margin-top: 40px;">
+                    <tr>
+                        <td>
+                            <input type="submit" value="Send" name="send" id="send1">
+                            <input type="submit" value="Update" name="update" id="update1">
+                        </td>
+                        <td>
+                            <input type="reset" value="Cancle" name="cancle" id="cancle1">
+                            <input type="submit" value="Delete" name="delete" id="delete">
+                        </td>
+                    </tr>
+                </div>
+            </fieldset>
+        </form>
+    </center>
+</body>
+</html>
