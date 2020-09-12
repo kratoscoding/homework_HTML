@@ -29,3 +29,5 @@
 ใช้ web browser บน smartphone เข้าไปที่  url
 
 <ชื่อ user>.github.io/phonebook.html
+
+kratoscoding.github.io/phonebook.html
